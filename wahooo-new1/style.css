@@ -1,0 +1,156 @@
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+.dots{
+    position: absolute;
+    left: 2rem;
+    z-index: 1;
+}
+
+.section{
+    color: white;
+    background-image: url(./img/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* .section::before{
+    content: "";
+    position: absolute;
+    
+    width: 100%;
+    z-index: -1;
+    height: 126%;
+    background-image:  url(./img/layerd2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+*,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    margin: 5rem;
+    margin-bottom: 2rem;
+}
+
+.logo
+{
+    width: 10rem;
+}
+
+.content{
+
+    width: fit-content;
+    padding: 8rem;
+    /* margin: 5rem; */
+    display: flex;
+    margin-left: 7rem;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 8rem;
+
+}
+
+
+.content-div p:nth-child(1){
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.content-div p:nth-child(2){
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+
+
+.sec{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    position: relative;
+   
+
+}
+
+.sec p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+#btn
+{
+    text-decoration: none;
+    background: rgba(236, 232, 3, 0.993);
+    color: rgb(12, 12, 27);
+    font-size: 1.2em;
+    padding: 0.5rem 2rem;
+    width: fit-content;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+.span{
+    text-align: center;
+    background-color: rgba(236, 232, 3, 0.993);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: black;
+    height: 1rem;
+    width: 1rem;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1500px) {
+    html{
+        font-size: 90%;
+    }
+  }
+  
+@media screen and (max-width: 1300px) {
+    html{
+        font-size: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    html{
+        font-size: 70%;
+    }
+    .section{
+        background-size: cover;
+
+    }
+    
+  }
+
+  @media screen and (max-width: 900px) {
+    html{
+        font-size: 60%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    html{
+        font-size: 60%;
+    }
+  }
